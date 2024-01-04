@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4886B7D22AFDEA98005CA956 /* AquaGrowthMobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4886B7D12AFDEA98005CA956 /* AquaGrowthMobileApp.swift */; };
+		4886B7D42AFDEA98005CA956 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4886B7D32AFDEA98005CA956 /* ContentView.swift */; };
+		4886B7D62AFDEA9B005CA956 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4886B7D52AFDEA9B005CA956 /* Assets.xcassets */; };
+		4886B7D92AFDEA9B005CA956 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4886B7D82AFDEA9B005CA956 /* Preview Assets.xcassets */; };
+		4886B7E32AFDEA9B005CA956 /* AquaGrowthMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4886B7E22AFDEA9B005CA956 /* AquaGrowthMobileTests.swift */; };
+		4886B7ED2AFDEA9B005CA956 /* AquaGrowthMobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4886B7EC2AFDEA9B005CA956 /* AquaGrowthMobileUITests.swift */; };
+		4886B7EF2AFDEA9B005CA956 /* AquaGrowthMobileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4886B7EE2AFDEA9B005CA956 /* AquaGrowthMobileUITestsLaunchTests.swift */; };
+		48E91A642B4669BD0054EC3B /* BluetoothModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E91A632B4669BD0054EC3B /* BluetoothModel.swift */; };
+		48E91A662B4669E40054EC3B /* PeripheralViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E91A652B4669E40054EC3B /* PeripheralViewModel.swift */; };
+		48E91A692B466A390054EC3B /* ConnectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E91A682B466A390054EC3B /* ConnectView.swift */; };
+		48E91A6B2B466A570054EC3B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E91A6A2B466A570054EC3B /* MainView.swift */; };
+		48E91A6D2B466A740054EC3B /* PeripheralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E91A6C2B466A740054EC3B /* PeripheralView.swift */; };
+		48E91A6F2B466AAE0054EC3B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E91A6E2B466AAD0054EC3B /* HomeView.swift */; };
+		48E91A712B466ACD0054EC3B /* PlantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E91A702B466ACD0054EC3B /* PlantView.swift */; };
+		48E91A732B466AED0054EC3B /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E91A722B466AED0054EC3B /* DiscoverView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4886B7DF2AFDEA9B005CA956 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4886B7C62AFDEA98005CA956 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4886B7CD2AFDEA98005CA956;
+			remoteInfo = AquaGrowthMobile;
+		};
+		4886B7E92AFDEA9B005CA956 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4886B7C62AFDEA98005CA956 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4886B7CD2AFDEA98005CA956;
+			remoteInfo = AquaGrowthMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4886B7CE2AFDEA98005CA956 /* AquaGrowthMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AquaGrowthMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4886B7D12AFDEA98005CA956 /* AquaGrowthMobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquaGrowthMobileApp.swift; sourceTree = "<group>"; };
+		4886B7D32AFDEA98005CA956 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4886B7D52AFDEA9B005CA956 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4886B7D82AFDEA9B005CA956 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4886B7DE2AFDEA9B005CA956 /* AquaGrowthMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AquaGrowthMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4886B7E22AFDEA9B005CA956 /* AquaGrowthMobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquaGrowthMobileTests.swift; sourceTree = "<group>"; };
+		4886B7E82AFDEA9B005CA956 /* AquaGrowthMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AquaGrowthMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4886B7EC2AFDEA9B005CA956 /* AquaGrowthMobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquaGrowthMobileUITests.swift; sourceTree = "<group>"; };
+		4886B7EE2AFDEA9B005CA956 /* AquaGrowthMobileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquaGrowthMobileUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		48E91A632B4669BD0054EC3B /* BluetoothModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothModel.swift; sourceTree = "<group>"; };
+		48E91A652B4669E40054EC3B /* PeripheralViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralViewModel.swift; sourceTree = "<group>"; };
+		48E91A682B466A390054EC3B /* ConnectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectView.swift; sourceTree = "<group>"; };
+		48E91A6A2B466A570054EC3B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		48E91A6C2B466A740054EC3B /* PeripheralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralView.swift; sourceTree = "<group>"; };
+		48E91A6E2B466AAD0054EC3B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		48E91A702B466ACD0054EC3B /* PlantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantView.swift; sourceTree = "<group>"; };
+		48E91A722B466AED0054EC3B /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4886B7CB2AFDEA98005CA956 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4886B7DB2AFDEA9B005CA956 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4886B7E52AFDEA9B005CA956 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4886B7C52AFDEA98005CA956 = {
+			isa = PBXGroup;
+			children = (
+				4886B7D02AFDEA98005CA956 /* AquaGrowthMobile */,
+				4886B7E12AFDEA9B005CA956 /* AquaGrowthMobileTests */,
+				4886B7EB2AFDEA9B005CA956 /* AquaGrowthMobileUITests */,
+				4886B7CF2AFDEA98005CA956 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4886B7CF2AFDEA98005CA956 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4886B7CE2AFDEA98005CA956 /* AquaGrowthMobile.app */,
+				4886B7DE2AFDEA9B005CA956 /* AquaGrowthMobileTests.xctest */,
+				4886B7E82AFDEA9B005CA956 /* AquaGrowthMobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4886B7D02AFDEA98005CA956 /* AquaGrowthMobile */ = {
+			isa = PBXGroup;
+			children = (
+				48E91A672B4669EF0054EC3B /* Views */,
+				4886B7D12AFDEA98005CA956 /* AquaGrowthMobileApp.swift */,
+				48E91A632B4669BD0054EC3B /* BluetoothModel.swift */,
+				48E91A652B4669E40054EC3B /* PeripheralViewModel.swift */,
+				4886B7D52AFDEA9B005CA956 /* Assets.xcassets */,
+				4886B7D72AFDEA9B005CA956 /* Preview Content */,
+			);
+			path = AquaGrowthMobile;
+			sourceTree = "<group>";
+		};
+		4886B7D72AFDEA9B005CA956 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4886B7D82AFDEA9B005CA956 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4886B7E12AFDEA9B005CA956 /* AquaGrowthMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				4886B7E22AFDEA9B005CA956 /* AquaGrowthMobileTests.swift */,
+			);
+			path = AquaGrowthMobileTests;
+			sourceTree = "<group>";
+		};
+		4886B7EB2AFDEA9B005CA956 /* AquaGrowthMobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4886B7EC2AFDEA9B005CA956 /* AquaGrowthMobileUITests.swift */,
+				4886B7EE2AFDEA9B005CA956 /* AquaGrowthMobileUITestsLaunchTests.swift */,
+			);
+			path = AquaGrowthMobileUITests;
+			sourceTree = "<group>";
+		};
+		48E91A672B4669EF0054EC3B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				48E91A682B466A390054EC3B /* ConnectView.swift */,
+				4886B7D32AFDEA98005CA956 /* ContentView.swift */,
+				48E91A6A2B466A570054EC3B /* MainView.swift */,
+				48E91A6C2B466A740054EC3B /* PeripheralView.swift */,
+				48E91A6E2B466AAD0054EC3B /* HomeView.swift */,
+				48E91A702B466ACD0054EC3B /* PlantView.swift */,
+				48E91A722B466AED0054EC3B /* DiscoverView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4886B7CD2AFDEA98005CA956 /* AquaGrowthMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4886B7F22AFDEA9B005CA956 /* Build configuration list for PBXNativeTarget "AquaGrowthMobile" */;
+			buildPhases = (
+				4886B7CA2AFDEA98005CA956 /* Sources */,
+				4886B7CB2AFDEA98005CA956 /* Frameworks */,
+				4886B7CC2AFDEA98005CA956 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AquaGrowthMobile;
+			productName = AquaGrowthMobile;
+			productReference = 4886B7CE2AFDEA98005CA956 /* AquaGrowthMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4886B7DD2AFDEA9B005CA956 /* AquaGrowthMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4886B7F52AFDEA9B005CA956 /* Build configuration list for PBXNativeTarget "AquaGrowthMobileTests" */;
+			buildPhases = (
+				4886B7DA2AFDEA9B005CA956 /* Sources */,
+				4886B7DB2AFDEA9B005CA956 /* Frameworks */,
+				4886B7DC2AFDEA9B005CA956 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4886B7E02AFDEA9B005CA956 /* PBXTargetDependency */,
+			);
+			name = AquaGrowthMobileTests;
+			productName = AquaGrowthMobileTests;
+			productReference = 4886B7DE2AFDEA9B005CA956 /* AquaGrowthMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4886B7E72AFDEA9B005CA956 /* AquaGrowthMobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4886B7F82AFDEA9B005CA956 /* Build configuration list for PBXNativeTarget "AquaGrowthMobileUITests" */;
+			buildPhases = (
+				4886B7E42AFDEA9B005CA956 /* Sources */,
+				4886B7E52AFDEA9B005CA956 /* Frameworks */,
+				4886B7E62AFDEA9B005CA956 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4886B7EA2AFDEA9B005CA956 /* PBXTargetDependency */,
+			);
+			name = AquaGrowthMobileUITests;
+			productName = AquaGrowthMobileUITests;
+			productReference = 4886B7E82AFDEA9B005CA956 /* AquaGrowthMobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4886B7C62AFDEA98005CA956 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					4886B7CD2AFDEA98005CA956 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					4886B7DD2AFDEA9B005CA956 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 4886B7CD2AFDEA98005CA956;
+					};
+					4886B7E72AFDEA9B005CA956 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 4886B7CD2AFDEA98005CA956;
+					};
+				};
+			};
+			buildConfigurationList = 4886B7C92AFDEA98005CA956 /* Build configuration list for PBXProject "AquaGrowthMobile" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4886B7C52AFDEA98005CA956;
+			productRefGroup = 4886B7CF2AFDEA98005CA956 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4886B7CD2AFDEA98005CA956 /* AquaGrowthMobile */,
+				4886B7DD2AFDEA9B005CA956 /* AquaGrowthMobileTests */,
+				4886B7E72AFDEA9B005CA956 /* AquaGrowthMobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4886B7CC2AFDEA98005CA956 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4886B7D92AFDEA9B005CA956 /* Preview Assets.xcassets in Resources */,
+				4886B7D62AFDEA9B005CA956 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4886B7DC2AFDEA9B005CA956 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4886B7E62AFDEA9B005CA956 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4886B7CA2AFDEA98005CA956 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E91A662B4669E40054EC3B /* PeripheralViewModel.swift in Sources */,
+				48E91A6B2B466A570054EC3B /* MainView.swift in Sources */,
+				4886B7D42AFDEA98005CA956 /* ContentView.swift in Sources */,
+				4886B7D22AFDEA98005CA956 /* AquaGrowthMobileApp.swift in Sources */,
+				48E91A692B466A390054EC3B /* ConnectView.swift in Sources */,
+				48E91A6F2B466AAE0054EC3B /* HomeView.swift in Sources */,
+				48E91A6D2B466A740054EC3B /* PeripheralView.swift in Sources */,
+				48E91A732B466AED0054EC3B /* DiscoverView.swift in Sources */,
+				48E91A642B4669BD0054EC3B /* BluetoothModel.swift in Sources */,
+				48E91A712B466ACD0054EC3B /* PlantView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4886B7DA2AFDEA9B005CA956 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4886B7E32AFDEA9B005CA956 /* AquaGrowthMobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4886B7E42AFDEA9B005CA956 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4886B7ED2AFDEA9B005CA956 /* AquaGrowthMobileUITests.swift in Sources */,
+				4886B7EF2AFDEA9B005CA956 /* AquaGrowthMobileUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4886B7E02AFDEA9B005CA956 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4886B7CD2AFDEA98005CA956 /* AquaGrowthMobile */;
+			targetProxy = 4886B7DF2AFDEA9B005CA956 /* PBXContainerItemProxy */;
+		};
+		4886B7EA2AFDEA9B005CA956 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4886B7CD2AFDEA98005CA956 /* AquaGrowthMobile */;
+			targetProxy = 4886B7E92AFDEA9B005CA956 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4886B7F02AFDEA9B005CA956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4886B7F12AFDEA9B005CA956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4886B7F32AFDEA9B005CA956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AquaGrowthMobile/Preview Content\"";
+				DEVELOPMENT_TEAM = 4V3YUZ72NK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Please allow bluetooth for discovering peripheral";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Please allow bluetooth for discovering aquagrowth device";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TeamAqua;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4886B7F42AFDEA9B005CA956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AquaGrowthMobile/Preview Content\"";
+				DEVELOPMENT_TEAM = 4V3YUZ72NK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Please allow bluetooth for discovering peripheral";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Please allow bluetooth for discovering aquagrowth device";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TeamAqua;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4886B7F62AFDEA9B005CA956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AquaGrowth.AquaGrowthMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AquaGrowthMobile.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AquaGrowthMobile";
+			};
+			name = Debug;
+		};
+		4886B7F72AFDEA9B005CA956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AquaGrowth.AquaGrowthMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AquaGrowthMobile.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AquaGrowthMobile";
+			};
+			name = Release;
+		};
+		4886B7F92AFDEA9B005CA956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AquaGrowth.AquaGrowthMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AquaGrowthMobile;
+			};
+			name = Debug;
+		};
+		4886B7FA2AFDEA9B005CA956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AquaGrowth.AquaGrowthMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AquaGrowthMobile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4886B7C92AFDEA98005CA956 /* Build configuration list for PBXProject "AquaGrowthMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4886B7F02AFDEA9B005CA956 /* Debug */,
+				4886B7F12AFDEA9B005CA956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4886B7F22AFDEA9B005CA956 /* Build configuration list for PBXNativeTarget "AquaGrowthMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4886B7F32AFDEA9B005CA956 /* Debug */,
+				4886B7F42AFDEA9B005CA956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4886B7F52AFDEA9B005CA956 /* Build configuration list for PBXNativeTarget "AquaGrowthMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4886B7F62AFDEA9B005CA956 /* Debug */,
+				4886B7F72AFDEA9B005CA956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4886B7F82AFDEA9B005CA956 /* Build configuration list for PBXNativeTarget "AquaGrowthMobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4886B7F92AFDEA9B005CA956 /* Debug */,
+				4886B7FA2AFDEA9B005CA956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4886B7C62AFDEA98005CA956 /* Project object */;
+}
