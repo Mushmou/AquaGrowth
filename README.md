@@ -18,3 +18,17 @@
 Privacy - Bluetooth Always Usage Description
 4. Afterward make sure the targetted build deployment is "ios 16.0" in the build settings.
 5. Connect iPhone with lightning cable and run the build on your device. (As of now Jan 3, 2023 the build should succeeed with the current repo.)
+
+## Files that currently need help in
+- MainView.swift
+- HomeView.swift
+- PlantView.swift
+- DiscoverView.swift
+- AquaGrowthMobileApp.swift
+
+Also feel free to add more files along the way.
+## Files that shouldn't be modified as of now (Jan 3, 2023)
+- ConnectView.swift
+- PeripheralView.swift
+- PeripheralViewModel.swift
+- BluetoothModel.swift
