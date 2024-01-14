@@ -11,6 +11,7 @@ import CoreBluetooth
 struct ConnectView: View {
     @ObservedObject var connect_bluetooth: BluetoothViewModel
     var my_peripheral: CBPeripheral
+    
     @Environment(\.presentationMode) var presentationMode
 
     var body: some View {

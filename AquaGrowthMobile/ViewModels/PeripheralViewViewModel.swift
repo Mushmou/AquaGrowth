@@ -196,9 +196,9 @@ extension BluetoothViewModel: CBCentralManagerDelegate {
     //Connect peripheral state
     func centralManager(_ central: CBCentralManager, didConnect peripheral: CBPeripheral) {
         bluetoothModel.connectedPeripheral = peripheral
+        bluetoothModel.isConnected = true
         print("connected peripheral is", bluetoothModel.connectedPeripheral)
         peripheral.delegate = self
-        
         discoverServices(peripheral: peripheral)
     }
     
@@ -214,6 +214,7 @@ extension BluetoothViewModel: CBCentralManagerDelegate {
             return
         }
         // Successfully disconnected
+        bluetoothModel.isConnected = false
     }
     
     // Discover services callback

@@ -10,7 +10,7 @@ import SwiftUI
 
 
 struct HomeView: View {
-    @ObservedObject private var bluetoothViewModel = BluetoothViewModel()
+    @ObservedObject private var home_viewModel = BluetoothViewModel()
     var body: some View {
         Text("Home View")
         }

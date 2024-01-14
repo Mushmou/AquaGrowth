@@ -17,4 +17,5 @@ struct BluetoothModel {
     var humidityCharacteristicValue: Data?
     var fahrenheitCharacteristicValue: Data?
     var heatIndexCharacteristicValue: Data?
+    var isConnected: Bool = false
 }

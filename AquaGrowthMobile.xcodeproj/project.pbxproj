@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48520BD22B4F4D34008644F2 /* ConnectViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48520BD12B4F4D34008644F2 /* ConnectViewViewModel.swift */; };
+		48520BD42B4F4D48008644F2 /* ContentViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48520BD32B4F4D48008644F2 /* ContentViewViewModel.swift */; };
+		48520BD62B4F4D54008644F2 /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48520BD52B4F4D54008644F2 /* MainViewViewModel.swift */; };
+		48520BD82B4F4D63008644F2 /* HomeViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48520BD72B4F4D63008644F2 /* HomeViewViewModel.swift */; };
+		48520BDA2B4F4D6B008644F2 /* PlantViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48520BD92B4F4D6B008644F2 /* PlantViewViewModel.swift */; };
+		48520BDC2B4F4D73008644F2 /* DiscoverViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48520BDB2B4F4D73008644F2 /* DiscoverViewViewModel.swift */; };
 		4886B7D22AFDEA98005CA956 /* AquaGrowthMobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4886B7D12AFDEA98005CA956 /* AquaGrowthMobileApp.swift */; };
 		4886B7D42AFDEA98005CA956 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4886B7D32AFDEA98005CA956 /* ContentView.swift */; };
 		4886B7D62AFDEA9B005CA956 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4886B7D52AFDEA9B005CA956 /* Assets.xcassets */; };
@@ -15,7 +21,7 @@
 		4886B7ED2AFDEA9B005CA956 /* AquaGrowthMobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4886B7EC2AFDEA9B005CA956 /* AquaGrowthMobileUITests.swift */; };
 		4886B7EF2AFDEA9B005CA956 /* AquaGrowthMobileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4886B7EE2AFDEA9B005CA956 /* AquaGrowthMobileUITestsLaunchTests.swift */; };
 		48E91A642B4669BD0054EC3B /* BluetoothModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E91A632B4669BD0054EC3B /* BluetoothModel.swift */; };
-		48E91A662B4669E40054EC3B /* PeripheralViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E91A652B4669E40054EC3B /* PeripheralViewModel.swift */; };
+		48E91A662B4669E40054EC3B /* PeripheralViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E91A652B4669E40054EC3B /* PeripheralViewViewModel.swift */; };
 		48E91A692B466A390054EC3B /* ConnectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E91A682B466A390054EC3B /* ConnectView.swift */; };
 		48E91A6B2B466A570054EC3B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E91A6A2B466A570054EC3B /* MainView.swift */; };
 		48E91A6D2B466A740054EC3B /* PeripheralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E91A6C2B466A740054EC3B /* PeripheralView.swift */; };
@@ -42,6 +48,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		48520BD12B4F4D34008644F2 /* ConnectViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectViewViewModel.swift; sourceTree = "<group>"; };
+		48520BD32B4F4D48008644F2 /* ContentViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewViewModel.swift; sourceTree = "<group>"; };
+		48520BD52B4F4D54008644F2 /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
+		48520BD72B4F4D63008644F2 /* HomeViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewViewModel.swift; sourceTree = "<group>"; };
+		48520BD92B4F4D6B008644F2 /* PlantViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantViewViewModel.swift; sourceTree = "<group>"; };
+		48520BDB2B4F4D73008644F2 /* DiscoverViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewViewModel.swift; sourceTree = "<group>"; };
 		4886B7CE2AFDEA98005CA956 /* AquaGrowthMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AquaGrowthMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4886B7D12AFDEA98005CA956 /* AquaGrowthMobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquaGrowthMobileApp.swift; sourceTree = "<group>"; };
 		4886B7D32AFDEA98005CA956 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,7 +65,7 @@
 		4886B7EC2AFDEA9B005CA956 /* AquaGrowthMobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquaGrowthMobileUITests.swift; sourceTree = "<group>"; };
 		4886B7EE2AFDEA9B005CA956 /* AquaGrowthMobileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquaGrowthMobileUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		48E91A632B4669BD0054EC3B /* BluetoothModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothModel.swift; sourceTree = "<group>"; };
-		48E91A652B4669E40054EC3B /* PeripheralViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralViewModel.swift; sourceTree = "<group>"; };
+		48E91A652B4669E40054EC3B /* PeripheralViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralViewViewModel.swift; sourceTree = "<group>"; };
 		48E91A682B466A390054EC3B /* ConnectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectView.swift; sourceTree = "<group>"; };
 		48E91A6A2B466A570054EC3B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		48E91A6C2B466A740054EC3B /* PeripheralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralView.swift; sourceTree = "<group>"; };
@@ -87,6 +99,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48520BCF2B4F4CF3008644F2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				48E91A652B4669E40054EC3B /* PeripheralViewViewModel.swift */,
+				48520BD12B4F4D34008644F2 /* ConnectViewViewModel.swift */,
+				48520BD32B4F4D48008644F2 /* ContentViewViewModel.swift */,
+				48520BD52B4F4D54008644F2 /* MainViewViewModel.swift */,
+				48520BD72B4F4D63008644F2 /* HomeViewViewModel.swift */,
+				48520BD92B4F4D6B008644F2 /* PlantViewViewModel.swift */,
+				48520BDB2B4F4D73008644F2 /* DiscoverViewViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		48520BD02B4F4D0C008644F2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				48E91A632B4669BD0054EC3B /* BluetoothModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		4886B7C52AFDEA98005CA956 = {
 			isa = PBXGroup;
 			children = (
@@ -110,10 +144,10 @@
 		4886B7D02AFDEA98005CA956 /* AquaGrowthMobile */ = {
 			isa = PBXGroup;
 			children = (
+				48520BD02B4F4D0C008644F2 /* Models */,
+				48520BCF2B4F4CF3008644F2 /* ViewModels */,
 				48E91A672B4669EF0054EC3B /* Views */,
 				4886B7D12AFDEA98005CA956 /* AquaGrowthMobileApp.swift */,
-				48E91A632B4669BD0054EC3B /* BluetoothModel.swift */,
-				48E91A652B4669E40054EC3B /* PeripheralViewModel.swift */,
 				4886B7D52AFDEA9B005CA956 /* Assets.xcassets */,
 				4886B7D72AFDEA9B005CA956 /* Preview Content */,
 			);
@@ -289,7 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48E91A662B4669E40054EC3B /* PeripheralViewModel.swift in Sources */,
+				48E91A662B4669E40054EC3B /* PeripheralViewViewModel.swift in Sources */,
 				48E91A6B2B466A570054EC3B /* MainView.swift in Sources */,
 				4886B7D42AFDEA98005CA956 /* ContentView.swift in Sources */,
 				4886B7D22AFDEA98005CA956 /* AquaGrowthMobileApp.swift in Sources */,
@@ -297,8 +331,14 @@
 				48E91A6F2B466AAE0054EC3B /* HomeView.swift in Sources */,
 				48E91A6D2B466A740054EC3B /* PeripheralView.swift in Sources */,
 				48E91A732B466AED0054EC3B /* DiscoverView.swift in Sources */,
+				48520BD82B4F4D63008644F2 /* HomeViewViewModel.swift in Sources */,
+				48520BD22B4F4D34008644F2 /* ConnectViewViewModel.swift in Sources */,
+				48520BD62B4F4D54008644F2 /* MainViewViewModel.swift in Sources */,
 				48E91A642B4669BD0054EC3B /* BluetoothModel.swift in Sources */,
+				48520BDC2B4F4D73008644F2 /* DiscoverViewViewModel.swift in Sources */,
+				48520BDA2B4F4D6B008644F2 /* PlantViewViewModel.swift in Sources */,
 				48E91A712B466ACD0054EC3B /* PlantView.swift in Sources */,
+				48520BD42B4F4D48008644F2 /* ContentViewViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,21 +9,21 @@ import SwiftUI
 // THIS IS THE MAIN VIEW -> THIS WILL NEED TO BE IMPLEMENTED TO ADD
 // HOME, Bluetooth, Discover, Plants page ETC
 struct MainView: View {
-    @StateObject private var myBluetooth = BluetoothViewModel()
+    @StateObject private var viewModel = BluetoothViewModel()
 
     var body: some View {
         TabView{
             HomeView().tabItem {
-                Label("Home", systemImage: "Home")
+                Label("Home", systemImage: "house")
             }
-            PlantView(curr_bluetooth: myBluetooth).tabItem{
-                Label("Plants", systemImage: "Star")
+            PlantView(plant_viewModel: viewModel).tabItem{
+                Label("Plants", systemImage: "person.crop.circle")
             }
             DiscoverView().tabItem{
-                Label("Discover", systemImage: "Star")
+                Label("Discover", systemImage: "person.crop.circle")
             }
-            PeripheralView(bluetoothViewModel: myBluetooth).tabItem {
-                Label("Peripheral", systemImage: "Star")
+            PeripheralView(peripheral_viewModel: viewModel).tabItem {
+                Label("Peripheral", systemImage: "person.crop.circle")
             }
         }
     }

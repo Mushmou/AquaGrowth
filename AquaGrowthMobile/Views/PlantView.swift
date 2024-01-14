@@ -10,55 +10,66 @@ import SwiftUI
 
 
 struct PlantView: View {
-    @ObservedObject var curr_bluetooth: BluetoothViewModel
+    @ObservedObject var plant_viewModel: BluetoothViewModel
+    
+    
+    
     var body: some View {
-        let my_peripheral = curr_bluetooth.bluetoothModel.connectedPeripheral
+        let my_peripheral = plant_viewModel.bluetoothModel.connectedPeripheral
         VStack {
             Text("Plant View")
             if my_peripheral != nil{
-                Text("Status: \(curr_bluetooth.bluetoothModel.connectedPeripheral!)")
+                Text("Status: \(plant_viewModel.bluetoothModel.connectedPeripheral!)")
             }
-            if curr_bluetooth.bluetoothModel.ledCharacteristicValue != nil{
-                Text("Value: \(curr_bluetooth.bluetoothModel.ledCharacteristicValue!)")
+            if plant_viewModel.bluetoothModel.ledCharacteristicValue != nil{
+                Text("Value: \(plant_viewModel.bluetoothModel.ledCharacteristicValue!)")
             }
             Button("Read LED Characteristic") {
                 if (my_peripheral != nil) {
-                    curr_bluetooth.readLEDCharacteristic()
+                    plant_viewModel.readLEDCharacteristic()
                 }
             }
             
-            if curr_bluetooth.bluetoothModel.moistureCharacteristicValue != nil{
-                Text("Value: \(curr_bluetooth.bluetoothModel.moistureCharacteristicValue!)")
+            if plant_viewModel.bluetoothModel.moistureCharacteristicValue != nil{
+                Text("Value: \(plant_viewModel.bluetoothModel.moistureCharacteristicValue!)")
             }
             Button("Read Moisture Characteristic") {
                 if (my_peripheral != nil) {
-                    curr_bluetooth.readMoistureCharacteristic()
+                    plant_viewModel.readMoistureCharacteristic()
                 }
             }
-            if curr_bluetooth.bluetoothModel.humidityCharacteristicValue != nil{
-                Text("Value: \(curr_bluetooth.bluetoothModel.humidityCharacteristicValue!)")
+            if plant_viewModel.bluetoothModel.humidityCharacteristicValue != nil{
+                Text("Value: \(plant_viewModel.bluetoothModel.humidityCharacteristicValue!)")
             }
             Button("Read Humidity Characteristic") {
                 if (my_peripheral != nil) {
-                    curr_bluetooth.readHumidityCharacteristic  ()
+                    plant_viewModel.readHumidityCharacteristic  ()
                 }
             }
-            if curr_bluetooth.bluetoothModel.fahrenheitCharacteristicValue != nil{
-                Text("Value: \(curr_bluetooth.bluetoothModel.fahrenheitCharacteristicValue!)")
+            if plant_viewModel.bluetoothModel.fahrenheitCharacteristicValue != nil{
+                Text("Value: \(plant_viewModel.bluetoothModel.fahrenheitCharacteristicValue!)")
             }
             Button("Read Fahrenheit Characteristic") {
                 if (my_peripheral != nil) {
-                    curr_bluetooth.readFahrenheitCharacteristic()
+                    plant_viewModel.readFahrenheitCharacteristic()
                 }
             }
-            if curr_bluetooth.bluetoothModel.heatIndexCharacteristicValue != nil{
-                Text("Value: \(curr_bluetooth.bluetoothModel.heatIndexCharacteristicValue!)")
+            if plant_viewModel.bluetoothModel.heatIndexCharacteristicValue != nil{
+                Text("Value: \(plant_viewModel.bluetoothModel.heatIndexCharacteristicValue!)")
             }
             Button("Read Heat Index Characteristic") {
                 if (my_peripheral != nil) {
-                    curr_bluetooth.readHeatIndexCharacteristic()
+                    plant_viewModel.readHeatIndexCharacteristic()
                 }
             }
         }
+    }
+}
+
+
+struct PlantView_Previews: PreviewProvider {
+    static var previews: some View {
+        let viewModel = BluetoothViewModel()  // Create an instance of BluetoothViewModel
+        return PlantView(plant_viewModel: viewModel)
     }
 }
