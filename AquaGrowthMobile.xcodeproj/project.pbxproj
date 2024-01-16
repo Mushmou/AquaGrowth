@@ -7,12 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		48520BD22B4F4D34008644F2 /* ConnectViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48520BD12B4F4D34008644F2 /* ConnectViewViewModel.swift */; };
+		4823039C2B562C1C0067AFFB /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4823039B2B562C1C0067AFFB /* ProfileView.swift */; };
 		48520BD42B4F4D48008644F2 /* ContentViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48520BD32B4F4D48008644F2 /* ContentViewViewModel.swift */; };
 		48520BD62B4F4D54008644F2 /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48520BD52B4F4D54008644F2 /* MainViewViewModel.swift */; };
 		48520BD82B4F4D63008644F2 /* HomeViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48520BD72B4F4D63008644F2 /* HomeViewViewModel.swift */; };
 		48520BDA2B4F4D6B008644F2 /* PlantViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48520BD92B4F4D6B008644F2 /* PlantViewViewModel.swift */; };
 		48520BDC2B4F4D73008644F2 /* DiscoverViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48520BDB2B4F4D73008644F2 /* DiscoverViewViewModel.swift */; };
+		48520BDE2B54B52E008644F2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48520BDD2B54B52E008644F2 /* LoginView.swift */; };
+		48520BE02B54B53B008644F2 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48520BDF2B54B53B008644F2 /* RegisterView.swift */; };
+		48520BE22B54B6E6008644F2 /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48520BE12B54B6E6008644F2 /* LoginViewViewModel.swift */; };
+		48520BE42B54B825008644F2 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48520BE32B54B825008644F2 /* TLButton.swift */; };
+		48520BE62B54DB71008644F2 /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48520BE52B54DB71008644F2 /* RegisterViewViewModel.swift */; };
+		48520BE92B561A5F008644F2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48520BE82B561A5F008644F2 /* GoogleService-Info.plist */; };
+		48520BEA2B561A60008644F2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48520BE82B561A5F008644F2 /* GoogleService-Info.plist */; };
+		48520BEB2B561A60008644F2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48520BE82B561A5F008644F2 /* GoogleService-Info.plist */; };
+		48520BEE2B561B79008644F2 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 48520BED2B561B79008644F2 /* FirebaseAnalytics */; };
+		48520BF02B561B79008644F2 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 48520BEF2B561B79008644F2 /* FirebaseAuth */; };
+		48520BF22B561B79008644F2 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 48520BF12B561B79008644F2 /* FirebaseFirestore */; };
+		48520BF42B561B79008644F2 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 48520BF32B561B79008644F2 /* FirebaseFirestoreSwift */; };
+		48520BFA2B562B28008644F2 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48520BF92B562B28008644F2 /* ProfileViewModel.swift */; };
+		48520BFB2B562B28008644F2 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48520BF92B562B28008644F2 /* ProfileViewModel.swift */; };
+		48520BFC2B562B28008644F2 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48520BF92B562B28008644F2 /* ProfileViewModel.swift */; };
 		4886B7D22AFDEA98005CA956 /* AquaGrowthMobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4886B7D12AFDEA98005CA956 /* AquaGrowthMobileApp.swift */; };
 		4886B7D42AFDEA98005CA956 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4886B7D32AFDEA98005CA956 /* ContentView.swift */; };
 		4886B7D62AFDEA9B005CA956 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4886B7D52AFDEA9B005CA956 /* Assets.xcassets */; };
@@ -48,12 +63,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		48520BD12B4F4D34008644F2 /* ConnectViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectViewViewModel.swift; sourceTree = "<group>"; };
+		4823039B2B562C1C0067AFFB /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		48520BD32B4F4D48008644F2 /* ContentViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewViewModel.swift; sourceTree = "<group>"; };
 		48520BD52B4F4D54008644F2 /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
 		48520BD72B4F4D63008644F2 /* HomeViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewViewModel.swift; sourceTree = "<group>"; };
 		48520BD92B4F4D6B008644F2 /* PlantViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantViewViewModel.swift; sourceTree = "<group>"; };
 		48520BDB2B4F4D73008644F2 /* DiscoverViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewViewModel.swift; sourceTree = "<group>"; };
+		48520BDD2B54B52E008644F2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		48520BDF2B54B53B008644F2 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		48520BE12B54B6E6008644F2 /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
+		48520BE32B54B825008644F2 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
+		48520BE52B54DB71008644F2 /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
+		48520BE82B561A5F008644F2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		48520BF92B562B28008644F2 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		4886B7CE2AFDEA98005CA956 /* AquaGrowthMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AquaGrowthMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4886B7D12AFDEA98005CA956 /* AquaGrowthMobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquaGrowthMobileApp.swift; sourceTree = "<group>"; };
 		4886B7D32AFDEA98005CA956 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -79,6 +101,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48520BEE2B561B79008644F2 /* FirebaseAnalytics in Frameworks */,
+				48520BF02B561B79008644F2 /* FirebaseAuth in Frameworks */,
+				48520BF22B561B79008644F2 /* FirebaseFirestore in Frameworks */,
+				48520BF42B561B79008644F2 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,12 +129,14 @@
 			isa = PBXGroup;
 			children = (
 				48E91A652B4669E40054EC3B /* PeripheralViewViewModel.swift */,
-				48520BD12B4F4D34008644F2 /* ConnectViewViewModel.swift */,
 				48520BD32B4F4D48008644F2 /* ContentViewViewModel.swift */,
 				48520BD52B4F4D54008644F2 /* MainViewViewModel.swift */,
 				48520BD72B4F4D63008644F2 /* HomeViewViewModel.swift */,
 				48520BD92B4F4D6B008644F2 /* PlantViewViewModel.swift */,
 				48520BDB2B4F4D73008644F2 /* DiscoverViewViewModel.swift */,
+				48520BE12B54B6E6008644F2 /* LoginViewViewModel.swift */,
+				48520BE52B54DB71008644F2 /* RegisterViewViewModel.swift */,
+				48520BF92B562B28008644F2 /* ProfileViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -119,6 +147,14 @@
 				48E91A632B4669BD0054EC3B /* BluetoothModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		48520BE72B561A56008644F2 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				48520BE82B561A5F008644F2 /* GoogleService-Info.plist */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 		4886B7C52AFDEA98005CA956 = {
@@ -144,11 +180,11 @@
 		4886B7D02AFDEA98005CA956 /* AquaGrowthMobile */ = {
 			isa = PBXGroup;
 			children = (
+				48520BE72B561A56008644F2 /* Other */,
 				48520BD02B4F4D0C008644F2 /* Models */,
 				48520BCF2B4F4CF3008644F2 /* ViewModels */,
 				48E91A672B4669EF0054EC3B /* Views */,
 				4886B7D12AFDEA98005CA956 /* AquaGrowthMobileApp.swift */,
-				4886B7D52AFDEA9B005CA956 /* Assets.xcassets */,
 				4886B7D72AFDEA9B005CA956 /* Preview Content */,
 			);
 			path = AquaGrowthMobile;
@@ -158,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				4886B7D82AFDEA9B005CA956 /* Preview Assets.xcassets */,
+				4886B7D52AFDEA9B005CA956 /* Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -189,6 +226,10 @@
 				48E91A6E2B466AAD0054EC3B /* HomeView.swift */,
 				48E91A702B466ACD0054EC3B /* PlantView.swift */,
 				48E91A722B466AED0054EC3B /* DiscoverView.swift */,
+				48520BDD2B54B52E008644F2 /* LoginView.swift */,
+				48520BDF2B54B53B008644F2 /* RegisterView.swift */,
+				48520BE32B54B825008644F2 /* TLButton.swift */,
+				4823039B2B562C1C0067AFFB /* ProfileView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -209,6 +250,12 @@
 			dependencies = (
 			);
 			name = AquaGrowthMobile;
+			packageProductDependencies = (
+				48520BED2B561B79008644F2 /* FirebaseAnalytics */,
+				48520BEF2B561B79008644F2 /* FirebaseAuth */,
+				48520BF12B561B79008644F2 /* FirebaseFirestore */,
+				48520BF32B561B79008644F2 /* FirebaseFirestoreSwift */,
+			);
 			productName = AquaGrowthMobile;
 			productReference = 4886B7CE2AFDEA98005CA956 /* AquaGrowthMobile.app */;
 			productType = "com.apple.product-type.application";
@@ -281,6 +328,9 @@
 				Base,
 			);
 			mainGroup = 4886B7C52AFDEA98005CA956;
+			packageReferences = (
+				48520BEC2B561B79008644F2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 4886B7CF2AFDEA98005CA956 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -299,6 +349,7 @@
 			files = (
 				4886B7D92AFDEA9B005CA956 /* Preview Assets.xcassets in Resources */,
 				4886B7D62AFDEA9B005CA956 /* Assets.xcassets in Resources */,
+				48520BE92B561A5F008644F2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +357,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48520BEA2B561A60008644F2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +365,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48520BEB2B561A60008644F2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,14 +383,20 @@
 				48E91A692B466A390054EC3B /* ConnectView.swift in Sources */,
 				48E91A6F2B466AAE0054EC3B /* HomeView.swift in Sources */,
 				48E91A6D2B466A740054EC3B /* PeripheralView.swift in Sources */,
+				48520BE42B54B825008644F2 /* TLButton.swift in Sources */,
 				48E91A732B466AED0054EC3B /* DiscoverView.swift in Sources */,
 				48520BD82B4F4D63008644F2 /* HomeViewViewModel.swift in Sources */,
-				48520BD22B4F4D34008644F2 /* ConnectViewViewModel.swift in Sources */,
+				48520BE62B54DB71008644F2 /* RegisterViewViewModel.swift in Sources */,
+				48520BE02B54B53B008644F2 /* RegisterView.swift in Sources */,
+				48520BDE2B54B52E008644F2 /* LoginView.swift in Sources */,
 				48520BD62B4F4D54008644F2 /* MainViewViewModel.swift in Sources */,
 				48E91A642B4669BD0054EC3B /* BluetoothModel.swift in Sources */,
+				48520BE22B54B6E6008644F2 /* LoginViewViewModel.swift in Sources */,
 				48520BDC2B4F4D73008644F2 /* DiscoverViewViewModel.swift in Sources */,
 				48520BDA2B4F4D6B008644F2 /* PlantViewViewModel.swift in Sources */,
+				48520BFA2B562B28008644F2 /* ProfileViewModel.swift in Sources */,
 				48E91A712B466ACD0054EC3B /* PlantView.swift in Sources */,
+				4823039C2B562C1C0067AFFB /* ProfileView.swift in Sources */,
 				48520BD42B4F4D48008644F2 /* ContentViewViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,6 +405,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48520BFB2B562B28008644F2 /* ProfileViewModel.swift in Sources */,
 				4886B7E32AFDEA9B005CA956 /* AquaGrowthMobileTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,6 +415,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4886B7ED2AFDEA9B005CA956 /* AquaGrowthMobileUITests.swift in Sources */,
+				48520BFC2B562B28008644F2 /* ProfileViewModel.swift in Sources */,
 				4886B7EF2AFDEA9B005CA956 /* AquaGrowthMobileUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,20 +566,20 @@
 				DEVELOPMENT_TEAM = 4V3YUZ72NK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AquaGrowth;
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Please allow bluetooth for discovering peripheral";
 				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Please allow bluetooth for discovering aquagrowth device";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = TeamAqua;
+				PRODUCT_BUNDLE_IDENTIFIER = AquaGrowth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -537,20 +598,20 @@
 				DEVELOPMENT_TEAM = 4V3YUZ72NK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AquaGrowth;
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Please allow bluetooth for discovering peripheral";
 				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Please allow bluetooth for discovering aquagrowth device";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = TeamAqua;
+				PRODUCT_BUNDLE_IDENTIFIER = AquaGrowth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -670,6 +731,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		48520BEC2B561B79008644F2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.19.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		48520BED2B561B79008644F2 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 48520BEC2B561B79008644F2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		48520BEF2B561B79008644F2 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 48520BEC2B561B79008644F2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		48520BF12B561B79008644F2 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 48520BEC2B561B79008644F2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		48520BF32B561B79008644F2 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 48520BEC2B561B79008644F2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4886B7C62AFDEA98005CA956 /* Project object */;
 }

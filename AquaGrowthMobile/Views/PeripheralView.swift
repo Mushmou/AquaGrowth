@@ -52,8 +52,6 @@ struct PeripheralView: View {
     }
 }
 
-
-
 struct PeripheralView_Previews: PreviewProvider{
     static var previews: some View {
         let viewModel = BluetoothViewModel()
