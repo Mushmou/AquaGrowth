@@ -10,27 +10,34 @@ import SwiftUI
 // HOME, Bluetooth, Discover, Plants page ETC
 struct MainView: View {
     @StateObject private var viewModel = BluetoothViewModel()
+    @StateObject var mainViewModel = MainViewViewModel()
 
     var body: some View {
-        TabView{
-            HomeView().tabItem {
-                Label("Home", systemImage: "house")
+        if mainViewModel.isSignedIn, !mainViewModel.currentUserId.isEmpty{
+            TabView{
+                HomeView().tabItem {
+                    Label("Home", systemImage: "house")
+                }
+                PlantView(plant_viewModel: viewModel).tabItem{
+                    Label("Plants", systemImage: "person.crop.circle")
+                }
+                DiscoverView().tabItem{
+                    Label("Discover", systemImage: "person.crop.circle")
+                }
+                PeripheralView(peripheral_viewModel: viewModel).tabItem {
+                    Label("Peripheral", systemImage: "person.crop.circle")
+                }
+                ProfileView().tabItem {
+                    Label("Home", systemImage: "house")
+                }
             }
-            PlantView(plant_viewModel: viewModel).tabItem{
-                Label("Plants", systemImage: "person.crop.circle")
-            }
-            DiscoverView().tabItem{
-                Label("Discover", systemImage: "person.crop.circle")
-            }
-            PeripheralView(peripheral_viewModel: viewModel).tabItem {
-                Label("Peripheral", systemImage: "person.crop.circle")
-            }
+        }
+        else{
+            LoginView()
         }
     }
 }
 
-struct MainView_Previews: PreviewProvider {
-    static var previews: some View {
-        MainView()
-    }
+#Preview{
+    MainView()
 }

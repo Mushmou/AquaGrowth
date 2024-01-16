@@ -5,6 +5,8 @@
 //  Created by Noah Jacinto on 1/3/24.
 //
 
+//THIS VIEW WILL BE REMOVED SOON
+
 import SwiftUI
 import CoreBluetooth
 // THIS VIEW IS PART OF PERIPHERAL VIEW its to confirm a connection.
@@ -28,3 +30,4 @@ struct ConnectView: View {
         }
     }
 }
+
