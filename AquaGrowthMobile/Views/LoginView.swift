@@ -1,15 +1,3 @@
-//
-//  LoginView.swift
-//  AquaGrowthMobile
-//
-//  Created by Noah Jacinto on 1/14/24.
-//
-
-import Foundation
-import SwiftUI
-
-
-
 struct LoginView: View {
     @StateObject var viewModel = LoginViewViewModel()
     var body: some View {
